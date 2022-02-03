@@ -1,0 +1,34 @@
+#tinymce aside {
+    color: #2222ff;
+    margin: 20px;
+    background-color: #ccc;
+    padding: 20px;
+}
+
+#tinymce aside.left {
+    float: left;
+}
+
+#tinymce aside.right {
+    float: right;
+}
+
+#tinymce #call-to-action {
+    background-color: #c2c7cb;
+    color: #fff;
+    margin-top: 50px;
+    padding: 40px;
+    text-align: center;
+}
+
+#tinymce #call-to-action h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+#tinymce #call-to-action a {
+	color: #0087e2;
+}

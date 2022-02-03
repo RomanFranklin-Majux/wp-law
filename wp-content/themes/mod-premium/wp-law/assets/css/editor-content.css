@@ -1,0 +1,117 @@
+/* ============================================================================ *
+	Editor Content Styles
+	---------------------------------------------------------------------------
+	These will only style content from a wordpress editor box. This isolates
+	their styles so they don't cascasde to other structural page elements.
+
+	All styles in this stylesheet should target the .editor-content class in some way.
+*/
+ 
+
+/* ======================================== *
+	Header 1
+ * ======================================== */
+ /* 
+ 	H1's should only be used in the home page content editor.
+ 	All other pages have their h1's generated for them. 
+ 	If you think you have to put an h1 style in here,
+ 	you most likely shouldn't be putting an h1 in the WP editor in the first place.
+ */
+
+.editor-content h1 {
+	margin-bottom: 15px;
+}
+
+
+/* ======================================== *
+	Header 2
+ * ======================================== */
+.editor-content h2 {}
+
+.editor-content h2 a {}
+
+
+/* ======================================== *
+	Header 3
+ * ======================================== */
+.editor-content h3 {}
+
+.editor-content h3 a {}
+
+
+/* ======================================== *
+	Header 4
+ * ======================================== */
+.editor-content h4 {}
+.editor-content h4 a {}
+
+
+/* ======================================== *
+	Header 5
+ * ======================================== */
+.editor-content h5 {}
+.editor-content h5 a {}
+
+
+/* ======================================== *
+	Paragraph
+ * ======================================== */
+.editor-content p {
+	line-height: 1.7em;
+	margin-bottom: 15px;
+}
+
+.editor-content p:last-child {
+	margin-bottom: 0;
+}
+
+/* ======================================== *
+	Lists
+ * ======================================== */
+.editor-content ul {
+	padding-left: 40px;
+	margin: 15px 0;
+}
+.editor-content ul li {}
+
+.editor-content ol {
+	padding-left: 40px;
+	margin: 15px 0;
+}
+.editor-content ol li {}
+
+
+/* ======================================== *
+	Links
+ * ======================================== */
+.editor-content a {
+    font-weight: 700;
+	text-decoration: underline;
+}
+
+.editor-content a:hover {
+	text-decoration: none;
+}
+
+
+/* ======================================== *
+	Floats
+ * ======================================== */
+.editor-content .alignleft { 
+	margin-bottom: 25px;
+	margin-right: 25px;
+}
+
+.editor-content .aligncenter { 
+	margin-bottom: 25px;
+}
+
+.editor-content .alignright  { 
+	margin-bottom: 25px;
+	margin-left: 25px;
+}
+
+
+/* ======================================== *
+	Other
+ * ======================================== */

@@ -1,0 +1,740 @@
+/* ============================================================================ *
+	Framework Post Styles
+    ---------------------------------------------------------------------------
+	These are the styles which build all the different post types and their
+	corresponding templates.
+*/
+
+
+/* ======================================== *
+	All Posts
+ * ======================================== */
+.tmf-post {
+	position: relative;
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+}
+
+.tmf-post.last-post:not(.representative-case) {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+/* post-type-label is use on search pages */
+.post-type-label {
+	font-size: 1.1em;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.tmf-post img.thumbnail {
+	float: left;
+}
+
+.tmf-post .excerpt {
+	margin-top: 10px;
+	line-height: 1.7em;
+}
+
+.tmf-post .children {
+	margin-top: 25px;
+	border-left: 3px solid rgba(0,0,0, 0.2);
+	margin-left: 0;
+	padding-left: 25px;
+}
+
+.tmf-post .tmf-taxonomy-list,
+.tmf-post .tmf-post-link-list {
+	font-size: .85em;
+	line-height: 1.4em;
+	margin-top: 5px;
+	font-style: italic;
+}
+
+.tmf-post .tmf-taxonomy-list .tmf-taxonomy,
+.tmf-post .tmf-post-link-list .tmf-post-link {
+	font-style: italic;
+}
+
+.tmf-post .taxonomy-container {
+	margin-top: 15px;
+}
+
+
+/* ======================================== *
+	Small
+ * ======================================== */
+.tmf-post.small {
+	padding-bottom: 12px;
+	margin-bottom: 12px;
+	border-bottom: none;
+}
+
+.tmf-post.small.last-post {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.tmf-post.small .excerpt {
+	font-size: .9em;
+	margin-top: 5px;
+}
+
+
+/* ======================================== *
+	Medium
+ * ======================================== */
+.tmf-post {
+	border-bottom: 1px solid #ddd;
+}
+@media only screen and ( min-width: 750px ){
+	.tmf-post.last-post {
+		border-bottom: 0;
+	}
+}
+
+
+.tmf-post.medium.event .read-more {
+	margin-left: 10px;
+}
+
+
+/* ======================================== *
+	Large
+ * ======================================== */
+.tmf-post.large > .title {
+	font-size: 1.7em;
+}
+
+.tmf-post.large .page-content {
+	margin-bottom: 25px;
+}
+
+
+/* ======================================== *
+	Attorney & Staff
+ * ======================================== */
+.tmf-post.attorney.thumbnail,
+.tmf-post.staff.thumbnail {
+	display: table;
+	border-bottom: none;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.tmf-post.attorney.thumbnail:last-child,
+.tmf-post.staff.thumbnail:last-child {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.tmf-post.attorney.thumbnail .cell-1,
+.tmf-post.staff.thumbnail .cell-1 {
+	display: table-cell;
+	padding-right: 15px;
+	vertical-align: middle;
+	min-width: 75px;
+}
+
+.tmf-post.attorney.thumbnail .cell-1 img.thumbnail,
+.tmf-post.staff.thumbnail .cell-1 img.thumbnail {
+	width: 75px;
+}
+
+.tmf-post.attorney.thumbnail .cell-2,
+.tmf-post.staff.thumbnail .cell-2 {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.tmf-post.attorney.small img.thumbnail,
+.tmf-post.staff.small img.thumbnail {
+	max-height: 130px;
+	max-width: 100px;
+}
+
+.tmf-post.attorney.medium img.thumbnail,
+.tmf-post.staff.medium img.thumbnail {
+	max-height: 150px;
+	max-width: 135px;
+}
+
+.tmf-post.attorney.medium .read-more-button.top,
+.tmf-post.staff.medium .read-more-button.top {
+	float: right;
+	margin-bottom: 10px;
+	margin-left: 25px;
+}
+
+.tmf-post.attorney.medium .read-more-button.bottom,
+.tmf-post.staff.medium .read-more-button.bottom {
+	display: none;
+	float: right;
+	margin-top: 15px;
+}
+
+.tmf-post.attorney.large #page-content,
+.tmf-post.staff.large #page-content {
+	margin-top: 25px;
+}
+
+.tmf-post.attorney.large h1#page-title,
+.tmf-post.staff.large h1#page-title {
+	margin-bottom: 0;
+}
+
+.tmf-post.attorney .tmf-taxonomy-list.attorney-titles,
+.tmf-post.staff .tmf-taxonomy-list.staff-titles {
+	margin-top: 2px;
+}
+
+.tmf-post.attorney .icon-container .social-icons,
+.tmf-post.staff .icon-container .social-icons {
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.tmf-post.attorney .icon-container .vcard-resume-container,
+.tmf-post.staff .icon-container .vcard-resume-container {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.tmf-post.attorney .contact-information,
+.tmf-post.staff .contact-information {
+	font-size: .85em;
+	line-height: 1.5em;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.tmf-post.attorney.large img.primary,
+.tmf-post.staff.large img.primary {
+	max-width: 250px;
+}
+
+.tmf-post.attorney.author,
+.tmf-post.staff.author {
+	font-size: .9em;
+}
+
+.tmf-post.attorney.author img.thumbnail,
+.tmf-post.staff.author img.thumbnail {
+	margin-right: 10px;
+	width: 100px;
+	margin-top: 8px;
+}
+
+
+/* ======================================== *
+	Practice Area
+ * ======================================== */
+.tmf-post.small.practice-area {
+	border-bottom: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-top: 12px;
+	position: relative;
+	line-height: 1.2em;
+}
+
+.tmf-post.small.practice-area a {
+	text-decoration: none;
+}
+
+.tmf-post.small.practice-area a:hover {
+	text-decoration: underline;
+}
+
+.tmf-post.small.practice-area.first-post {
+	margin-top: 0;
+}
+
+.tmf-post.small.practice-area .tmf-post.small.practice-area.first-post {
+	margin-top: 12px;
+}
+
+.tmf-post.small.practice-area .children {
+	margin-top: 0;
+	padding-left: 20px;
+	border-left: none;
+}
+
+.tmf-post.medium.practice-area .children .excerpt,
+.tmf-post.large.practice-area .children .excerpt {
+	font-size: .9em;
+}
+
+.tmf-post.medium.practice-area .children .title,
+.tmf-post.large.practice-area .children .title {
+	font-size: 1.3em;
+}
+
+.tmf-post.small.practice-area .children .tmf-post:before {
+	content: '\2022';
+	font-weight: 700;
+	left: -15px;
+	position: absolute;
+}
+
+.tmf-post.medium.practice-area .children .tmf-post.medium.practice-area .children,
+.tmf-post.large.practice-area .children .tmf-post.medium.practice-area .children {
+	margin-top: 35px;
+}
+
+.tmf-post.practice-area h3 {
+	margin-top: 25px;
+}
+
+.tmf-post.practice-area.thumbnail {
+	border-bottom: none;
+	display: table;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+
+.tmf-post.practice-area.thumbnail img.thumbnail {
+	width: 100%;
+}
+
+.tmf-post.practice-area.thumbnail > div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.tmf-post.practice-area.thumbnail .cell-1 {
+	width: 80px;
+	padding-right: 10px;
+}
+
+/* ======================================== *
+	Testimonial
+ * ======================================== */
+.tmf-post.testimonial.small .title {
+	font-size: 1.3em;
+}
+
+.tmf-post.testimonial.small .excerpt {
+	font-size: 1.3em;
+	line-height: 1.5em;
+}
+
+.tmf-post.testimonial .testimonial-description {
+	float: right;
+	font-size: .85em;
+	margin-top: 10px;
+	font-style: italic;
+}
+
+
+/* ======================================== *
+	Location
+ * ======================================== */
+.tmf-post.small.location {
+	font-size: .85em;
+	line-height: 1.5em;
+}
+
+.tmf-post.small.location .static-map {
+	margin-bottom: 10px;
+}
+
+.tmf-post.location.medium h2 {
+	font-weight: 700;
+}
+
+
+.tmf-post.location .direction-links {
+	margin-top: 25px;
+	font-size: .85em;
+}
+
+
+/* ======================================== *
+	Post
+ * ======================================== */
+.tmf-post.post .date,
+.tmf-post.news .date {
+	font-style: italic;
+	font-size: .9em;
+	font-weight: 400;
+	margin-top: 0;
+}
+
+.tmf-post.post.small .title.has-post-date,
+.tmf-post.news.small .title.has-post-date {
+	margin-left: 55px;
+}
+
+.tmf-post.post.small .calendar-icon,
+.tmf-post.news.small .calendar-icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 2px solid #000;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width: 40px;
+	margin-top: 4px;
+	text-align: center;
+}
+
+.tmf-post.post.small .calendar-icon .month,
+.tmf-post.news.small .calendar-icon .month {
+	background-color: #000;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1em;
+	padding: 1px 0 3px;
+	font-size: .8em;
+}
+
+.tmf-post.post.small .calendar-icon .day,
+.tmf-post.news.small .calendar-icon .day {
+	line-height: 1em;
+	padding: 5px 0;
+}
+
+.tmf-post.post.medium .read-more-button,
+.tmf-post.news.medium .read-more-button {
+	float: right;
+	margin-top: 15px;
+	margin-left: 25px;
+	margin-bottom: 15px;
+}
+
+.tmf-post.post.medium .post-information-container,
+.tmf-post.news.medium .post-information-container {
+	display: inline-block;
+}
+
+.tmf-post.post .contributors,
+.tmf-post.news .contributors {
+	margin-top: 15px;
+}
+
+.tmf-post.post .tmf-author,
+.tmf-post.news .tmf-author {
+	margin-top: 15px;
+	line-height: 1em;
+	font-size: 14px;
+}
+
+.tmf-post.post .tmf-author .author-name-container,
+.tmf-post.news .tmf-author .author-name-container {
+	display: inline-block;
+	margin-top: 4px;
+}
+
+.tmf-post.post .tmf-author .author-name,
+.tmf-post.news .tmf-author .author-name {
+	vertical-align: top;
+	line-height: 1.4em;
+}
+
+.tmf-post.post .tmf-author .author-thumbnail,
+.tmf-post.news .tmf-author .author-thumbnail {
+	height: 40px;
+	float: left;
+	margin-right: 7px;
+}
+
+.tmf-post.post.large #page-title,
+.tmf-post.news.large #page-title {
+	margin-bottom: 0;
+}
+
+.tmf-post.post.large #page-content,
+.tmf-post.news.large #page-content {
+	margin-top: 25px;
+}
+
+
+/* ======================================== *
+	Event
+ * ======================================== */
+.tmf-post.event .date {
+	font-style: italic;
+	font-size: .9em;
+	font-weight: 400;
+	margin-top: 0;
+}
+
+.tmf-post.event .location {
+	font-size: .9em;
+	font-weight: 400;
+	margin-top: 0;
+	line-height: 1.4em;
+}
+
+.tmf-post.event .location .event-location-name {
+	font-weight: 700;
+}
+
+.tmf-post.event.small .title {
+	margin-left: 55px;
+}
+
+.tmf-post.event.small .calendar-icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 2px solid #000;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width: 40px;
+	margin-top: 4px;
+	text-align: center;
+}
+
+.tmf-post.event.small .calendar-icon .month {
+	background-color: #000;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1em;
+	padding: 1px 0 3px;
+	font-size: .8em;
+}
+
+.tmf-post.event.small .calendar-icon .day {
+	line-height: 1em;
+	padding: 5px 0;
+}
+
+.tmf-post.event.medium .read-more-button {
+	float: right;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
+
+.tmf-post.event.medium .read-more-button.rsvp {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.tmf-post.event.large #page-title {
+	margin-bottom: 0;
+}
+
+.tmf-post.event.large .post-information-container {
+	margin-bottom: 25px;
+}
+
+.tmf-post.event.large .date {
+	font-size: 1em;
+}
+
+.tmf-post.event.large .location {
+	font-size: 1em;
+}
+
+
+/* ======================================== *
+	Articles
+ * ======================================== */
+ .tmf-post.article.medium .read-more-button {
+ 	float: right;
+ 	margin-top: 15px;
+ 	margin-left: 25px;
+ 	margin-bottom: 15px;
+ }
+
+
+/* ======================================== *
+	Videos
+ * ======================================== */
+.tmf-post.video.small img.thumbnail {
+	max-width: 100px;
+	width: 100px;
+}
+
+.tmf-post.large img.primary {
+	width: auto;
+	max-width: 100%;
+}
+
+
+/* ======================================== *
+	Member
+ * ======================================== */
+.tmf-post.member.medium {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	position: relative;
+	min-height: 70px;
+}
+
+.tmf-post.member.medium .member-image {
+	width: 70px;
+	height: 70px;
+	display: block;
+	background-position: 50% 50%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: absolute;
+	overflow: hidden;
+}
+
+.tmf-post.member.medium .view-profile.right {
+	float: right;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.tmf-post.member.medium .main-information {
+	margin-left: 80px;
+	position: relative;
+	display: inline-block;
+	width: 250px;
+	vertical-align: top;
+	min-height: 70px;
+	margin-right: 10px;
+}
+
+.tmf-post.member.medium .main-information .title {
+	line-height: 1.3em;
+}
+
+.tmf-post.member.medium .main-information .business-name {
+	font-weight: 700;
+	font-size: .75em;
+	line-height: 1.3em;
+}
+
+.tmf-post.member.medium .main-information .professional-areas {
+	margin-top: 7px;
+	font-size: .75em;
+}
+
+.tmf-post.member.medium .contact-information {
+	display: inline-block;
+	max-width: 250px;
+	vertical-align: top;
+	font-size: .75em;
+	line-height: 1.3em;
+	word-wrap: break-word;
+}
+
+.tmf-post.member.medium .contact-information .label {
+	font-weight: 700;
+}
+
+.tmf-post.member.large #page-content {
+	margin-top: 25px;
+}
+
+.tmf-post.member.large h1#page-title {
+	margin-bottom: 0;
+}
+
+.tmf-post.member.large .contact-information {
+	font-size: .85em;
+	line-height: 1.5em;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.tmf-post.member.large .main-information {
+	margin-bottom: 15px;
+	line-height: 1.3em;
+}
+
+.tmf-post.member.large .main-information .business-name {
+	font-weight: 700;
+}
+
+.tmf-post.member.large .main-information .professional-areas {
+	margin-top: 0;
+}
+
+.tmf-post.member.large img.primary {
+	max-width: 250px;
+}
+
+/* =============================================================== *
+	Mobile Nav Location CSS will get extended later on
+ * =============================================================== */
+
+.tmf-post.location.mobile-location {
+    padding: 15px 0;
+    font-size: 17px;
+    width: 100%;
+    margin: 15px 0;
+    line-height: 28px;
+}
+
+.tmf-post.location.mobile-location .location-small-container {
+    max-width: 570px;
+    margin: 0 auto;
+}
+
+.tmf-post.location.mobile-location .location-small-1 {
+    border-right: 1px solid #000000;
+}
+
+.tmf-post.location.mobile-location .location-small-1, 
+.tmf-post.location.mobile-location .location-small-2 {
+    display: inline-block;
+    max-width: 425px;
+    vertical-align: middle;
+    padding: 0 25px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.tmf-post.location.mobile-location .map-label {
+    margin-right: 5px;
+    font-size: 35px;
+    vertical-align: middle;
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tmf-post.location.mobile-location .location-address .address {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 35px;
+}
+
+.tmf-post.location.mobile-location .label {
+    margin-right: 13px;
+    vertical-align: middle;
+}
+
+.tmf-post.location.mobile-location .divider {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .tmf-post.location.mobile-location .location-small-container {
+        max-width: 350px;
+    }
+
+    .tmf-post.location.mobile-location .location-small-1, 
+    .tmf-post.location.mobile-location .location-small-2 {
+        display: block;
+        max-width: 100%;
+    }
+
+    .tmf-post.location.mobile-location .location-small-1 {
+        border-right: none;
+    }
+
+    .tmf-post.location.mobile-location .location-small-2 {
+        margin-top: 10px;
+    }
+
+    .tmf-post.location.mobile-location .divider {
+        display: block;
+        height: 1px;
+        width: 100%;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,1 @@
+<div id="no-content"><?php echo $message ?></div>

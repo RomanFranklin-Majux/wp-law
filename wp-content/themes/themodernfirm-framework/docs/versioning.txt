@@ -1,0 +1,570 @@
+
+
+
+
+
+
+=== Versioning ===
+
+== 2.4.9.2 ==
+**Date:** July 21st, 2020 - Aug 17th, 2020
+**Author:** Bryan Glanz
+
+* Added support for custom videos on video lightbox
+* Fix jQuery.fn.live() is deprecated Warning
+
+== 2.4.9.1 ==
+**Date:** July 13th, 2020 - July 21st, 2020
+**Author:** Bryan Glanz
+
+* Fix favicon not uploading with PHP 7.4
+* Added call to action margin and padding field to adv. settings
+* Updated default margin for call to action
+* Added the "Remove Firm Name" checkbox to location post-type
+* Updated location address metabox
+* Updated modern slider templates to make "custom" option work
+
+== 2.4.9.0 ==
+**Date:** June 13th, 2020 - July 13th, 2020
+**Author:** Bryan Glanz
+
+* Added post count to taxonomies
+* Redirected attachment pages to files via yoast
+* Added VideoObject for youtube and youtube_advanced shortcode
+* Fixed modern slider shortcode not working
+* Removed the need for having post_parent when using include attribute in shortcodes
+* Added star font size in adv. settings and set them default to 1.5em
+* Made Gravity From asterisk color same as label by default
+
+== 2.4.8.9 ==
+**Date:** May 15th, 2020
+**Author:** Bryan Glanz
+
+* Fixed modern slider not expanding bug
+* Fixed duplicate breadcrumbs
+* Fixed "Publish" button label for events
+* Added Date shortcode and added year parameter to current-year
+
+== 2.4.8.8 ==
+**Date:** May 9th, 2020
+**Author:** Bryan Glanz
+
+* Modern slider improvements
+* Updated the copyright from 2012 - 2018 to 2012 - 2020 in files
+* Removed old framework update checking setup
+
+== 2.4.8.7 ==
+**Date:** May 5th, 2020
+**Author:** Bryan Glanz
+
+* Fixed Gravity Forms default button turning white on smaller screens
+* Added some missing shortcodes to the tool (Avvo Badge, Avvo URL, Best Lawyers URL, Martindale URL, Superlawyers URL, Stars, Vimeo, YouTube)
+* Added Taxonomy and Terms fields to post-type shortcodes
+
+== 2.4.8.6 ==
+**Date:** April 28th, 2020
+**Author:** Bryan Glanz
+
+* Moved 3rd level menu to it's own sub-menu
+* Added Facebook share button
+* Fixed Pinterest button alignment
+* Added custom sort order settings to post-type preferences pages
+* Removed "Edit Site" for non multisite installs
+* Added full-width, left sidebar, and right sidebar page templates
+
+== 2.4.8.5 ==
+**Date:** April 17th, 2020
+**Author:** Bryan Glanz
+
+* Added CPT white labeling
+* Fixed social buttons alignment
+
+== 2.4.8.4 ==
+**Date:** March 28th, 2020
+**Author:** Bryan Glanz
+
+* Updated theme update package
+* Expanded slide box by default
+* Increased container width for bigger screens
+
+== 2.4.8.3 ==
+**Date:** February 5th, 2020
+**Author:** Bryan Glanz
+
+* Removed the yahoo link from map links
+* Use Basic auth instead of the access_token query parameter
+* PHP warning fixes from advanced-settings
+* Fixed resume on Attorney and Staff
+
+== 2.4.8.2 ==
+**Date:** February 4th, 2020
+**Author:** Bryan Glanz
+
+* Gravity form admin CSS not rending
+* Gravity form disable Akismet banner
+* Gravity form force enable Akismet integration
+
+== 2.4.8.1 ==
+**Date:** January 31st, 2020
+**Author:** Bryan Glanz
+
+* Disabled YouTube and vimeo shortcodes from Shortcodes Ultimate
+
+== 2.4.8 ==
+**Date:** January 23rd, 2020 - January 27th, 2020
+**Author:** Bryan Glanz
+
+* Updated the breadcrumbs to use schema.org
+* Fixed linked-post.php for PHP 7.1 Array Error
+* Added auto update for framework via Git
+* Added back admin-shortcodes.php for backward compatibility
+
+== 2.4.7 ==
+**Date:** January 16th, 2020
+**Author:** Bryan Glanz
+
+* Fixed exception handling
+* Removed old shortcode setup
+* Removed needless files
+
+== 2.4.6.3 ==
+**Date:** August 16th, 2019 - August 30th, 2019
+**Author:** Bryan Glanz
+
+* Forcing Cache Clears on Any WP-Admin or Framework changes from the backend. 
+* More fixes to global changes to read more component
+* Accessibility changes have been added
+* Gutenberg support for custom post-types
+* Added Default email footer text for Gravity Forms
+* Added a new hook body_start which works at right after body tag opening
+* Fixed google tag manager placements
+
+== 2.4.6.2 ==
+**Date:** June 02, 2019 - August 16th, 2019
+**Author:** Bryan Glanz
+
+* Fixing Mobile Nav Setup
+* Minor Improvements to the way TMF approaches Accessibility
+* Minor Improvements to the Modern Slider feature
+* Added Instagram as an one of the Social Links in the General Settings area
+* Refactored and Fixed how the Read More Button and Links feature work and cleaned up the notes on how it works.
+* Other Minor refactors to improve for speed and compatibility for Gutenberg
+
+
+== 2.4.6.1 ==
+**Date:** April 26th, 2018
+**Author:** Bryan Glanz
+
+* Adding minor changes to the Asides styling area (Link color, margin, padding metaboxes and bug with asides that include paragraph tags.)
+* Added new field on gravity forms for showing custom text while submitting the form.
+* Styled the changelog screen
+* Added alternate breadcrumb text setup
+* Fixed TMF_ModerSlider not defined error on inner pages
+* Fixed Linked In share button alignment
+* Made Modern Slider accordions always opened in admin
+* Made it show site logo in print if print logo is not set
+* Added new mobile menu
+* Added Gravity Forms setup to store RSVP entries
+
+== 2.4.6 ==
+**Date:** October 7,2017 - March 30, 2018
+**Author:** Bryan Glanz
+
+* Adding Alt tag support for Social Icons
+* Adding alt tag support for Google Maps Images (static and dynamic)
+* Fixes for quotes icon and coloring options.
+* Misc. Improvements were completed from Oct. to March, but mainly performance or for site specific fixes.
+
+== 2.4.5 ==
+**Date:** May 1st 2017 - October 7, 2017
+**Author:** Bryan Glanz
+
+* WP 4.4+ Fixes
+* Adding in Support for PHP7
+* Yoast Hooks into the Directory Page(s)
+* Misc. Styling Tab for Color Customizations and Feature Additions (Asides, Call To Actions, Stars and Blockquotes )
+* Modern Slider is Active and Ready to Hooked in where applicable
+* Fix on 404 Page (Typo)
+
+== 2.4.4 ==
+**Date:** Feb. 2nd 2016 - May 1st, 2017
+**Author:** Bryan Glanz
+
+* Google Tag Manager Support
+* Fixing some issues for Multisite
+* Initial Asides| Left, right, default
+* Stars Shortcode
+* Full on Shortcode Tool (Not currently used a whole lot)
+
+== 2.4.1.1 ==
+**Date:** Feb. 23rd 2015 - Feb. 2nd 2016
+**Author:** Bryan Glanz
+
+* Mobile Dock, Large Template Update for Practice Areas, added default thumbnail size, correction in social share buttons, duplicate featured image and primary image issue on blog articles were all completed in most recent framework update.
+
+* Fixes to Issues created in 2.3.1.0
+
+
+
+== 2.3.1.0 ==
+**Date:** 2015-02-23 13:00:00
+**Author:** Christopher Abalos
+
+* Support for association event registration
+* Added a setting to change the admin email sender name
+
+
+== 2.3.0.3 ==
+**Date:** 2015-02-16 11:00:00
+**Author:** Christopher Abalos
+
+* Changed video shortcodes to generate responsive support via JavaScript
+* Changed a google analytics setting
+
+
+== 2.3.0.1 ==
+**Date:** 2015-01-15 14:00:00
+**Author:** Christopher Abalos
+
+* Added support for member profile editing via member accounts.
+
+
+
+== 2.3.0.0 ==
+**Date:** 2015-01-15 14:00:00
+**Author:** Christopher Abalos
+
+* This release adds various functionality for association websites
+* Added a 'Members' post type
+
+
+
+== 2.2.0.0 ==
+**Date:** 2014-11-26 14:00:00
+**Author:** Christopher Abalos
+
+* Added a 'Communities' post type
+* Added a Facebook link field for Attorney & Staff
+* Added [avvo-badge] shortcode
+
+
+
+== 2.1.5.1 ==
+**Date:** 2014-06-12 14:00:00
+**Author:** Christopher Abalos
+
+* Added [slideshow] shortcode
+
+
+
+== 2.1.5.0 ==
+**Date:** 2014-06-12 14:00:00
+**Author:** Christopher Abalos
+
+* Added [rss] shortcode
+* Added a contributor option to posts
+* Made minor visual updates to Admin UI
+
+
+
+== 2.1.4.0 ==
+**Date:** 2014-04-22 21:00:00
+**Author:** Christopher Abalos
+
+* Moved [search] shortcode to a block
+
+
+
+== 2.1.3.0 ==
+**Date:** 2014-04-22 21:00:00
+**Author:** Christopher Abalos
+
+* Added Google Analytics Universal tracking support
+* Added a 'Change URL To' field to Site Migration
+
+
+
+== 2.1.2.0 ==
+**Date:** 2014-04-02 15:00:00
+**Author:** Christopher Abalos
+
+* Fixed an issue with the WYSIWYG editor for FAQ's encoding HTML elements
+* Added an [author] shortcode to display author information.
+* Added a 'current_author' parameter to post type shortcodes.
+
+
+
+== 2.1.1.2 ==
+**Date:** 2014-03-24 11:00:00
+**Author:** Christopher Abalos
+
+* Adjusted FAQ post type to have single pages.
+
+
+== 2.1.1.1 ==
+**Date:** 2014-03-08 12:00:00
+**Author:** Christopher Abalos
+
+* Fixed bug with mobile bookmark icons
+* Added commenting to large post template when comment UI is enabled
+
+
+== 2.1.1.0 ==
+**Date:** 2014-02-26 18:00:00
+**Author:** Christopher Abalos
+
+* Fixed a bug with directory titles displaying incorrectly.
+* Refactored the base TMF class and depreciated some functions.
+* Created a Directory class to house functions relating to directories (archives)
+* Created a Request class to house functions relating to a requested page
+* Added a tool to migrate posts between post types
+* Added a Pinterest Pin button option to social buttons
+* Added links to Import and Export in Advanced Panel
+
+
+== 2.1.0.3 ==
+**Date:** 2014-02-20 10:00:00
+**Author:** Christopher Abalos
+
+* Added default eBook templates
+* Added default video templates
+* Fixed a bug in large templates for posts, articles, and news
+* Updated image metabox to accept PNG files
+
+
+== 2.1.0.2 ==
+**Date:** 2014-02-14 13:00:00
+**Author:** Christopher Abalos
+
+* Added ability for custom page templates
+
+
+== 2.1.0.1 ==
+**Date:** 2014-02-14 13:00:00
+**Author:** Christopher Abalos
+
+* Added default templages for blog archive and single.
+* Added new options to the wufoo form shortcode to accept default values
+
+
+== 2.1.0.0 ==
+**Date:** 2014-01-29 19:00:00
+**Author:** Christopher Abalos
+
+* ** REQUIRES 3.8 or higher **
+* Added new vector icons for post types
+* Adjusted the combobox tag UI
+* Edited module admin panel.
+* Fixed a bug where post type url rewrites were not being flushed.
+* Added more columns to custom post admin tables
+* Obfuscate emails to avoid bots from scraping
+
+
+== 2.0.3.1 ==
+**Date:** 2014-01-16 12:00:00
+**Author:** Christopher Abalos
+
+* Added support for taxonomies to shortcodes.
+* Added a WYSIWYG editor to faq's
+
+
+
+== 2.0.3 ==
+**Date:** 2014-01-07 17:00:00
+**Author:** Christopher Abalos
+
+* Added a post type for eBooks
+* Added a post type for videos
+* Added a post type for articles
+* Edited the FAQ post type
+* Edited the Case Results post type
+
+
+== 2.0.2.11 ==
+**Date:** 2013-12-19 12:00:00
+**Author:** Christopher Abalos
+
+* Fixed a bug where HTML was being stripped out of WYSIWYG editors in metaboxes
+* Added a method for rendering social icons via templating
+
+
+== 2.0.2.10 ==
+**Date:** 2013-12-13 18:00:00
+**Author:** Christopher Abalos
+
+* Fixed a bug on directory pages where post objects would not be hidden if checked.
+
+
+== 2.0.2.9 ==
+**Date:** 2013-12-09 18:00:00
+**Author:** Christopher Abalos
+
+* Added a thumbnail template for practice areas
+
+
+== 2.0.2.8 ==
+**Date:** 2013-12-06 17:00:00
+**Author:** Christopher Abalos
+
+* Added two helper functions to tmf class for is_front_page and is_home
+* Added a include and exclude parameters to post api
+
+
+== 2.0.2.7 ==
+**Date:** 2013-12-03 12:00:00
+**Author:** Christopher Abalos
+
+* Added a new post type for Representitve Cases.
+* Made a small adjustment to the medium testimonial block.
+* Past events are now displayed.
+* Various changes made to the event post type to handle past events.
+* Added a wordpress rewrite for /events/past
+* Added a method for 'no content' messages to post type class.
+
+
+== 2.0.2.6 ==
+**Date:** 2013-11-24 12:00:00
+**Author:** Christopher Abalos
+
+* Added an FAQ post type.
+* Directory pages with no content now display breadcrumbs and titles.
+* Added 'no content' messages for each separate post type.
+
+
+== 2.0.2.5 ==
+**Date:** 2013-11-22 12:00:00
+**Author:** Christopher Abalos
+
+* Added a method of getting an alternate title from TMF post object.
+* Made the ID column in admin tables wider to display 4 digit IDs
+
+
+== 2.0.2.4 ==
+**Date:** 2013-11-20 12:00:00
+**Author:** Christopher Abalos
+
+* Empty practice areas no longer show as links.
+* Added options to video shortcodes
+* Video shortcodes now can be displayed as a placeholder with a lightbox.
+* Fixed a bug with pagination not working on search pages.
+
+
+== 2.0.2.3 ==
+**Date:** 2013-11-19 08:00:00
+**Author:** Christopher Abalos
+
+* Added a payments icons method to TMF
+* Added a thumbnail template for attorneys
+
+
+== 2.0.2.2 ==
+**Date:** 2013-11-15 08:00:00
+**Author:** Christopher Abalos
+
+* Fixed a bug with IE10 navigation
+* Fixed a bug with firm names using '&' in vCards.
+* Added support for the default wordpress commenting system
+* Added a shortcode for search forms
+
+
+== 2.0.2.1 ==
+**Date:** 2013-11-14 08:00:00
+**Author:** Christopher Abalos
+
+* Added support to get a module via an ID from TMF_Module.
+
+
+== 2.0.2.0 ==
+**Date:** 2013-11-13 08:00:00
+**Author:** Christopher Abalos
+
+* Added a News post type
+* Finished RSVP system and added new settings
+* Added basic password protection to pages
+* Module Display Rules are now working and finished
+* Various small tweaks
+
+
+== 2.0.1.7 ==
+**Date:** 2013-11-06 08:00:00
+**Author:** Christopher Abalos
+
+* Removed the title from small and medium testimonial templates by default
+* Directory top and bottom now render shortcodes.
+* Directory top and bottom will now show editor stylesheet
+
+
+== 2.0.1.6 ==
+**Date:** 2013-11-06 08:00:00
+**Author:** Christopher Abalos
+
+* Added some helper functions to TMF_Tmf
+
+
+== 2.0.1.5 ==
+**Date:** 2013-11-06 08:00:00
+**Author:** Christopher Abalos
+
+* Added a filter function to TMF_Taxonomy to be able to include and exclude terms from a list.
+
+
+== 2.0.1.4 ==
+**Date:** 2013-11-04 14:00:00
+**Author:** Christopher Abalos
+
+* Fixed module bug in front-page.php
+* Fixed typo in event-settings metabox
+* Fixed a bug with mobile dropdown navs not working correctly
+* Added a field in Advanced > WuFoo Forms to set the default form text.
+
+
+== 2.0.1.3 ==
+**Date:** 2013-10-31 14:00:00
+**Author:** Christopher Abalos
+
+* Fixed post titles to only show alternate title on large templates
+
+
+== 2.0.1.2 ==
+**Date:** 2013-10-30 22:00:00
+**Author:** Christopher Abalos
+
+* Added a clear float to posts > medium template
+* Moved TMF_Extend::after to run at very end of functions.php
+* Added a new post type for Quotes
+* Added a metabox to set an alternate title for all post types
+* Added a metabox to turn on and off all post types
+
+
+== 2.0.1.1 ==
+**Date:** 2013-10-30 12:45:00
+**Author:** Christopher Abalos
+
+* Added a metabox to set an alternate title for posts and pages.
+* Added a metabox to turn on and off page and post titles.
+
+
+== 2.0.1.0 ==
+**Date:** 2013-10-23 13:00:00
+**Author:** Christopher Abalos
+
+* Numereous refactors and code cleanup.
+* Refined all the standard post type templates and their default CSS styles
+* Created a PostObject class that extends all WP_Post objects. See class file for more details.
+* Created a TMF class that handles all templating functions
+* Renamed blocks/post-type to blocks/post-types to match naming convention
+* Renamed blocks/section to blocks/sections to match naming convention
+* Renamed classes/shortcodes to classes/shortcode to match naming convention
+* Moved some methods out of the generic TMF_Helper class into more descriptive classes (TMF_Post, TMF_Page, etc.)
+* Refactored TMF_PostTypeShortcode
+* Added a blog author thumbnail and link to posts
+* Added post archive redirect to testimonials, practice areas and locations
+* Moved navigation helper methods to the TMF_Navigation class
+* Added 'Directory Page' settings to all post types
+* Added option to format dates on posts and events
+* Added option to hide date from posts
+* Added option to hide author from posts
+* Added excerpt length settings and added a character counter to excerpt metabox
+* Added label settings for attorneys, staff and locations
+* Auto generate the display name for attorneys and staff using name fields
+* Added a setting to show and hide testimonial titles on the front end

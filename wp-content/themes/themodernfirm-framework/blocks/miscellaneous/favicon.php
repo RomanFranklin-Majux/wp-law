@@ -1,0 +1,1 @@
+<link rel="shortcut icon" href="<?php echo wp_get_attachment_url($icon) ?>" />
