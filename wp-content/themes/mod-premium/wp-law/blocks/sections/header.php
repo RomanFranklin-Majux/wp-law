@@ -4,7 +4,7 @@
 
 		<?php $row->cell(10) ?>
             <div class="desktop-view">
-				<?php //$tmf->logo() ?>
+				<?php $tmf->logo() ?>
 			</div>
 
             <div class="mobile-view">
@@ -15,14 +15,14 @@
 
 		<?php $row->cell(14) ?>
 			<div class="desktop-view">
-	            <?php //$tmf->module('header')->render() ?>
+	            <?php $tmf->module('header')->render() ?>
 	        </div>
 
-			<?php //$tmf->block('sections/mobile-nav')->render() ?>
+			<?php $tmf->block('sections/mobile-nav')->render() ?>
 
 	<?php $row->close() ?>
 
-<!--     <div class="mobile-view">
+    <div class="mobile-view">
 		<div class="header-btns">
 			<a href="tel:+12193221166" class="btn call-btn">CALL (219) 322-1166</a>
 			<a href="sms:+12193221166"class="btn text-btn">TEXT US</a>
@@ -30,7 +30,7 @@
 		<div class="header-slogan">
 			GET A FREE CASE EVALUATION NOW
 		</div>
-	</div> -->
+	</div>
 
 <meta name="google-site-verification" content="2XCYL3gluo6V_NVw81JMiTAniVPf-bxW_dodKorCb_s" />
 

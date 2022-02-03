@@ -9,7 +9,7 @@ function wplaw_enqueue_styles() {
   wp_enqueue_style( 'swiper-css', 'https://unpkg.com/swiper@7/swiper-bundle.min.css' );
 
   // Style
-  wp_enqueue_style( 'swiper-styles', get_stylesheet_directory_uri() . '/assets/css/slides.css', array(), '1.0.08');
+  wp_enqueue_style( 'swiper-styles', get_stylesheet_directory_uri() . '/assets/css/slides.css', array(), '1.0.09');
 
 
 

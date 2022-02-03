@@ -85,7 +85,7 @@ p.client-name {
     text-align: center;
     font-family: 'Roboto','Arial';
 	box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
-	width: 65%!important;
+	width: 85%!important;
 }
 
 .result-wrapper {
@@ -149,7 +149,8 @@ font-family: 'Roboto','Arial';
 
 .swiper-results .swiper-button-prev,
 .swiper-results .swiper-button-next {
-    top: 50%;
+    /*top: 50%;*/
+    bottom: -75px;
     transform: translateY(-50%);
 }
 

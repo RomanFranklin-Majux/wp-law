@@ -509,7 +509,7 @@ defined('FRAMEWORK_VERSION') or die('No direct access.');
 	
     <body <?php $tmf->body_css() ?>>
 
-        <div id="tmf-popup-form"> 
+        <div id="tmf-popup-form" class="desktop-view"> 
             <span class="close"></span>
             <?php $tmf->module('tmf-popup-form')->render() ?>
         </div>
